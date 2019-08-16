@@ -1,0 +1,25 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Стихотворения", 
+		"/contents/poems.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Видео", 
+		"/contents/video.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Аудио", 
+		"/contents/audio.php", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

@@ -1,0 +1,129 @@
+.content-wrapper {
+    width: 100%;
+    float: left;
+    padding: 10px 0 10px 0;
+}
+
+.poem-item, .poem-name, .poem-text, .poem-data-wrapper {
+    width: 100%;
+    float: left;
+}
+
+.poem-item {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.poem-data-wrapper {
+    min-height: 75px;
+}
+
+.poem-name, .poem-text {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #656c8a;
+    border-bottom: 1px dashed #217c8a;
+    padding-bottom: 20px;
+}
+
+.poem-data {
+    position: relative;
+    float: right;
+    width: auto;
+    min-height: 100%;
+    padding-left: 80px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: #217c8a;
+}
+
+.poem-data > div {
+    float: left;
+}
+
+.data-user-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #217c8a;
+    border-radius: 70px;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    -o-border-radius: 70px;
+    -khtml-border-radius: 70px;
+}
+
+.data-user-data {
+    width: auto;
+}
+
+.data-user-data > div {
+    width: auto;
+}
+
+.user-data-initials {
+    text-decoration: none;
+    color: inherit;
+}
+
+.user-data-initials:hover {
+    color: #ffffff;
+}
+
+.user-data-date {
+    clear: both;
+    margin-top: 5px;
+}
+
+.video-item {
+    width: 31.33%;
+    height: 150px;
+    float: left;
+    margin-right: 2%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 16px;
+}
+
+.video-click {
+    width: 100%;
+    height: 100%;
+    cursor: url(/local/templates/sshepelev/images/misc/cursor-view.png), pointer;
+}
+
+.video-data, .video-date {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.video-data {
+    opacity: 0;
+    height: 130px;
+    text-align: center;
+    padding: 2px;
+    color: #656c8a;
+    background-color: #ffffff; 
+}
+
+.video-date {
+    height: 20px;
+    text-align: right;
+    padding: 2px 4px 2px 0;
+    background-color: #217c8a;
+    color: #ffffff;
+}
+
+.video-data:hover {
+    opacity: 0.5;
+    transition: opacity 1s ease 0s;
+}

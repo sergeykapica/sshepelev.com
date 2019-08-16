@@ -1,0 +1,204 @@
+.insert-youtube, .insert-vimeo {
+    width: 100%;
+    height: 200px;
+}
+
+.bb-editor-img {
+    width: 100%;
+    height: auto;
+}
+
+.chat-textarea-wrapper {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 200px;
+}
+
+.chat-textarea-popups {
+    position: absolute;
+    width: 100%;
+    min-height: inherit;
+    z-index: -1;
+}
+
+.chat-textarea {
+    float: left;
+    width: 100%;
+    height: inherit;
+    overflow-y: auto;
+    border: 1px solid #217c8a;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 5px;
+    color: #656c8a;
+}
+
+.chat-textarea:focus {
+    outline: 0;
+    border-color: #656c8a;
+}
+
+.chat-textarea-nav {
+    float: left;
+    width: 100%;
+    padding: 5px 0 5px 0;
+}
+
+.chat-textarea-nav > div {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.insert-video-popup, .insert-image-popup {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    display: none;
+    padding: 10px;
+    width: 50%;
+    min-height: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-section {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.popup-headline {
+    font-size: 18px;
+}
+
+.popup-input {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    color: #656c8a;
+    border: 1px solid #217c8a;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 5px;
+}
+
+.popup-input:focus {
+    outline: 0;
+    border-color: #656c8a;
+}
+
+.nav-video-url {
+    background: url(images/bbEditorIcons.png) no-repeat;
+    background-size: 120px;
+    background-position: -0px -2px;
+}
+
+.nav-image-url {
+    background: url(images/bbEditorIcons.png) no-repeat;
+    background-size: 120px;
+    background-position: -40px -2px;
+}
+
+.nav-smiles {
+    background: url(images/bbEditorIcons.png) no-repeat;
+    background-size: 120px;
+    background-position: -80px -2px;
+}
+
+.nav-video-url:hover {
+    background-position: -0px -42px;
+}
+
+.nav-image-url:hover {
+    background-position: -40px -42px;
+}
+
+.nav-smiles:hover {
+    background-position: -80px -42px;
+}
+
+.popup-with-close {
+    position: relative;
+    padding-right: 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.popup-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: url(images/closeWindow.png) no-repeat left;
+    background-size: 40px;
+    cursor: pointer;
+}
+
+.popup-close:hover {
+    background-position: -20.5px 0;
+    transform: rotate(180deg);
+    transition: transform 1s ease 0s;
+}
+
+.insert-smiles-popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    min-height: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 10px 35px 10px 10px;
+}
+
+.insert-smiles-popup .popup-close {
+    top: 10px;
+    left: auto;
+    right: 5px;
+}
+
+.bb-editor-wrapper {
+    float: left;
+    width: 100%;
+}
+
+.popup-form-submit {
+    display: block;
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #217c8a;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    cursor: pointer;
+}

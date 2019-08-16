@@ -1,0 +1,65 @@
+#header-slider, .header-slider-ul, .header-slider-li {
+    position: relative;
+    width: inherit;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header-slider-ul, .header-slider-li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-slider-li {
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-slider-li:not(.slider1)
+{
+    display: none;
+}
+
+.slider1 {
+    background-image: url(images/1354823837_leningrad-albom13.jpg);
+}
+
+.slider2 {
+    background-image: url(images/1354823806_leningrad-albom3.jpg);
+}
+
+.slider3 {
+    background-image: url(images/1354823850_leningrad-albom6.jpg);
+}
+
+.slider4 {
+    background-image: url(images/1354823864_leningrad-albom12.jpg);
+}
+
+.slider5 {
+    background-image: url(images/1354823893_leningrad-albom5.jpg);
+}
+
+.slider6 {
+    background-image: url(images/1354823909_leningrad-albom8.jpg);
+}
+
+.slider7 {
+    background-image: url(images/1354823920_leningrad-albom30.jpg);
+}
+
+.slider-stop-button {
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: url(images/stop.png) no-repeat center;
+    background-size: 50px;
+    cursor: pointer;
+}

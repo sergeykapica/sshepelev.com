@@ -1,0 +1,220 @@
+@font-face {
+    font-family: shepelevMain;
+    src: url(fonts/sshepelev-main.otf);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 100vh;
+    min-width: 320px;
+    max-width: 1680px;
+    word-wrap: break-word;
+    background-color: #c4a27c;
+    font-family: shepelevMain;
+}
+
+.main-header {
+    float: left;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    color: #11735a;
+}
+
+.header-headline-wrapper {
+    width: 70%;
+    min-height: 500px;
+    position: absolute;
+    top: 20px;
+    left: 15%;
+}
+
+.header-headline {
+    width: 100%;
+    float: left;
+}
+
+.header-title {
+    float: left;
+    width: 20%;
+    font-size: 42px;
+}
+
+.header-title > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-menu {
+    float: right;
+    width: 70%;
+    font-size: 22px;
+}
+
+.main-content-wrapper {
+    width: 100%;
+    float: left;
+    min-height: 200px;
+}
+
+.content-container {
+    display: inline-block;
+    margin: 20px 25% 20px 25%;
+    width: 50%;
+    min-height: 0;
+    color: #302c27;
+}
+
+.content-header-wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 220px;
+    float: left;
+    padding-left: 220px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.content-header-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.main-page {
+    background: url(images/content/house.png) no-repeat center;
+    background-size: 200px;
+}
+
+.news-page {
+    background: url(images/content/newspaper.png) no-repeat center;
+    background-size: 200px;
+}
+
+.content-header-headline {
+    font-size: 62px;
+    text-align: center;
+}
+
+.pagination {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.contents-wrapper {
+    float: left;
+    width: 100%;
+}
+
+.contents-name-list {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.contents-name-item {
+    display: block;
+    width: 33.33%;
+    min-height: 100px;
+    float: left;
+    background-color: #ffffff;
+}
+
+.contents-name-item:hover {
+    background-color: #d6c8c1;
+    -webkit-transition: background-color 0.5s ease-out 0s;
+     -moz-transition: background-color 0.5s ease-out 0s;
+     -o-transition: background-color 0.5s ease-out 0s;
+     transition: background-color 0.5s ease-out 0s;
+}
+
+.contents-name-item div {
+    float: left;
+}
+
+.contents-item-middle {
+    margin: 0 2% 0 2%;
+    width: 29.29%;
+}
+
+.contents-name-icon {
+    width: 48%;
+    height: 100px;
+    margin: 5px 0 5px 2%;
+}
+
+.contents-name-text {
+    width: 48%;
+    margin-left: 2%;
+    text-align: center;
+    font-size: 16px;
+    color: #217c8a;
+    padding: 5px 2% 0 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.contents-poems-icon {
+    background: url(images/content/writing-with-a-feather-on-a-book.png) no-repeat center;
+    background-size: 100px auto;
+}
+
+.contents-video-icon {
+    background: url(images/content/video-camera.png) no-repeat center;
+    background-size: 100px auto;
+}
+
+.contents-audio-icon {
+    background: url(images/content/boom-box.png) no-repeat center;
+    background-size: 100px auto;
+}
+
+.contents-page {
+    background: url(images/content/layout.png) no-repeat center;
+    background-size: 200px;
+}
+
+.contents-name-url {
+    display: block;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-button {
+    background-color: #c4a27c;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    background-color: #217c8a;
+}

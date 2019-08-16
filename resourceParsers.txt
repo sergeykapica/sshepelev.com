@@ -1,0 +1,4 @@
+Youtube: {
+	id: youtubeparser-250015,
+	apiKey: AIzaSyCWt5lZUCkR4hm4PIOv15rCUIjyR5pLEIA
+}
