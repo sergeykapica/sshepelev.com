@@ -1,4 +1,5 @@
 .header-slvideo-wrapper {
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -24,6 +25,7 @@
     -o-border-radius: 5px;
     -khtml-border-radius: 5px;
     background-color: #c4a27c;
+    z-index: 100;
 }
 
 .header-slvideo-ul, .header-slvideo-li {
@@ -31,7 +33,7 @@
 }
 
 .header-slvideo-ul {
-    float: left;
+    position: relative;
     width: 100%;
 }
 
@@ -45,10 +47,101 @@
 .header-slvideo-li {
     width: 100%;
     float: left;
+    margin-right: 20px;
 }
 
 .youtube-player {
     width: 100%;
     height: 480px;
     border: none;
+}
+
+.source-data {
+    color: #217c8a;
+    margin-top: 10px;
+}
+
+.source-name {
+    width: 48%;
+    float: left;
+    text-align: left;
+    font-size: 18px;
+}
+
+.source-date {
+    width: 48%;
+    float: right;
+    text-align: right;
+}
+
+.like-container, .source-data-description {
+    width: 100%;
+    float: left;
+}
+
+.like-container {
+    position: relative;
+    margin-top: 10px;
+    padding-right: 120px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.source-data-description {
+    font-size: 16px;
+    color: #656c8a;
+}
+
+.like-prevcontainer-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navigation-wrapper {
+    opacity: 0;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    width: 100%;
+    height: 50px;
+}
+
+.navigation-video-left, .navigation-video-right {
+    width: 50px;
+    height: 50px;
+    background: url(images/sliderArrows.png) no-repeat;
+    background-size: 100px;
+    cursor: pointer;
+}
+
+.navigation-video-left {
+    float: left;
+    background-position: 0 0;
+}
+
+.navigation-video-right {
+    float: right;
+    background-position: -50px 0;
+}
+
+.navigation-video-left:hover {
+    float: left;
+    background-position: 0 -50px;
+}
+
+.navigation-video-right:hover {
+    float: right;
+    background-position: -50px -50px;
+}
+
+.fadeInNavigation {
+    opacity: 1;
+    transition: opacity 1s ease 0.5;
+}
+
+.fadeOutNavigation {
+    opacity: 0;
+    transition: opacity 1s ease 0.5;
 }

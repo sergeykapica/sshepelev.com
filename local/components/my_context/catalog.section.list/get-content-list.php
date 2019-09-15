@@ -16,11 +16,28 @@ else
 }
 ?>
 
-<?$APPLICATION->IncludeComponent(
-	"my_context:header-slider",
-	"sshepelev_video_slider",
-	Array()
-);?>
+<?
+if($iblockCode == 'user_video')
+{
+?>
+    <?$APPLICATION->IncludeComponent(
+        "my_context:header-slider",
+        "sshepelev_video_slider",
+        Array()
+    );?>
+<?
+}
+else if($iblockCode == 'user_photo')
+{
+?>
+    <?$APPLICATION->IncludeComponent(
+        "my_context:header-slider",
+        "sshepelev_photo_slider",
+        Array()
+    );?>
+<?
+}
+?>
 
 <?
 $APPLICATION->IncludeComponent(

@@ -1,0 +1,235 @@
+.news-comments, .news-comments-headline, .news-comments-list, .news-comment-item, .news-comment-text, .news-comment-information, .news-comment-data, .comments-list-empty {
+    float: left;
+    width: 100%;
+}
+
+.comments-list-empty {
+    color: #656c8a;
+    font-size: 16px;
+}
+
+.news-comments-headline {
+    font-size: 22px;
+    color: #ffffff;
+    margin: 20px 0 20px 0;
+}
+
+.news-comment-item {
+    margin-bottom: 20px;
+}
+
+.news-comment-text {
+    color: #217c8a;
+    margin-bottom: 10px;
+}
+
+.news-comment-item {
+    font-size: 16px;
+}
+
+.news-comment-information {
+    padding: 5px 0px 5px 75px;
+    position: relative;
+    min-height: 62px;
+    color: #656c8a;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.news-comment-icon {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #656c8a;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -o-border-radius: 50px;
+    -khtml-border-radius: 50px;
+}
+
+.news-comment-data {
+    margin-top: calc( ( 50px / 2 ) - ( 16px / 2 ) );
+}
+
+/*Comments add*/
+
+.news-comments-add, .comments-add-headline {
+    width: 100%;
+    float: left;
+}
+
+.news-comments-add {
+    margin: 20px 0 20px 0;
+}
+
+.comments-add-headline {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.comments-add-form {
+    display: block;
+    position: relative;
+    width: 70%;
+    float: left;
+    font-size: 16px;
+}
+
+.add-section-half {
+    float: left;
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.add-section-separator {
+    width: 4%;
+    height: 40px;
+    float: left;
+}
+
+.add-section-question, .add-section-answer {
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+
+.add-section-question {
+    color: #217c8a;
+    margin-bottom: 10px;
+}
+
+.add-section-answer {
+    position: relative;
+}
+
+.add-section-input {
+    display: block;
+    width: 100%;
+    border: 1px solid #217c8a;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    font-size: inherit;
+    color: #656c8a;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #c4a27c;
+}
+
+.add-section-input:focus {
+    outline:none;
+    border-color: #656c8a;
+}
+
+.add-section-fileinput {
+    display: none;
+}
+
+.add-section-filewrapper {
+    float: left;
+    width: 100%;
+    cursor: pointer;
+}
+
+.add-section-filewrapper > div {
+    float: left;
+    text-align: center;
+}
+
+.add-section-filebutton {
+    width: 48%;
+    margin-right: 2%;
+    color: #ffffff;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #217c8a;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+.add-section-filename {
+    width: 48%;
+    margin-left: 2%;
+    color: #656c8a;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.add-section-full {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.add-section-captcha {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.section-input-half {
+    width: 48%;
+}
+
+.add-section-sbutton {
+    display: block;
+    float: left;
+    width: 48%;
+    background-color: #217c8a;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #217c8a;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    cursor: pointer;
+}
+
+.send-status-wrapper {
+    width: 10%;
+    height: 35px;
+    float: right;
+}
+
+.send-status-wrapper > div {
+    width: 100%;
+    height: 100%;
+    background-image: url(/local/templates/sshepelev/images/modal-window-icons/response-marks.png);
+    background-repeat: no-repeat;
+    background-size: 70px auto;
+}
+
+.send-status-done {
+    background-position: -35px 0;
+}
+
+.send-status-error {
+    background-position: 8px 0;
+}

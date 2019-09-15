@@ -22,6 +22,16 @@ $arComponentParameters = array(
             'PARENT' => 'BASE',
             'NAME' => GetMessage('NEWS_ID_NAME'),
             'TYPE' => 'STRING'
+        ),
+        'COMMENT_IBLOCK' => array(
+            'PARENT' => 'BASE',
+            'NAME' => GetMessage('COMMENT_IBLOCK_NAME'),
+            'TYPE' => 'STRING'
+        ),
+        'CONTENT_ELEMENT_ID' => array(
+            'PARENT' => 'BASE',
+            'NAME' => GetMessage('CONTENT_ELEMENT_ID_NAME'),
+            'TYPE' => 'STRING'
         )
 	)
 );

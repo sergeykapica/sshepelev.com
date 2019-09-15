@@ -1,0 +1,77 @@
+.like-container-box {
+    position: relative;
+    width: 110px;
+    min-height: 25px;
+}
+
+.like-container-box > div {
+    width: 50px;
+    height: 100%;
+    float: left;
+}
+
+.container-box-like {
+    margin-right: 10px;
+}
+
+.container-box-like > div, .container-box-dizlike > div {
+    float: left;
+}
+
+.box-like-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.box-like-value {
+    width: 20px;
+    min-height: 25px;
+}
+
+.box-dizlike-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.box-dizlike-value {
+    width: 20px;
+    min-height: 25px;
+}
+
+.box-like-icon, .box-dizlike-icon {
+    background: url(/local/templates/sshepelev/images/content/like-system.png) no-repeat center;
+    background-size: 70px auto;
+    cursor: pointer;
+}
+
+.box-like-icon {
+    background-position: -5px -5px;
+}
+
+.box-dizlike-icon {
+    background-position: -40px -5px;
+}
+
+.box-like-icon:hover {
+    background-position: -5px -40px;
+}
+
+.box-dizlike-icon:hover {
+    background-position: -40px -40px;
+}
+
+.box-like-value, .box-dizlike-value {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.like-system-active {
+    background-position: -5px -40px;
+}
+
+.dizlike-system-active {
+    background-position: -40px -40px;
+}

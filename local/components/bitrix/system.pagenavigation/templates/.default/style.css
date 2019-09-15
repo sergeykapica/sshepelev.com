@@ -1,0 +1,83 @@
+.text {
+    display: inline-block;
+}
+
+.text > a:not(.page-begin):not(.page-prev):not(.page-next):not(.page-end), .text > b {
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.text > a:not(.page-begin):not(.page-prev):not(.page-next):not(.page-end) {
+    color: #656c8a;
+}
+
+.text > a:not(.page-begin):not(.page-prev):not(.page-next):not(.page-end):hover {
+    color: #217c8a;
+}
+
+.page-active {
+    color: #217c8a;
+}
+
+.page-begin, .page-prev, .page-next, .page-end, .page-begin-noactive, .page-prev-noactive, .page-next-noactive, .page-end-noactive {
+    display: inline-block;
+    float: left;
+    margin-top: 7px;
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    text-decoration: none;
+    background: url(images/pagination-arrows.png) no-repeat left top;
+    background-size: 64px;
+}
+
+.page-begin {
+    background-position: -32px -16px;
+}
+
+.page-prev {
+    background-position: 0 -16px;
+}
+
+.page-next {
+    background-position: -16px -16px;
+}
+
+.page-end {
+    background-position: -48px -16px;
+}
+
+.page-begin:hover {
+    background-position: -32px -32px;
+}
+
+.page-prev:hover {
+    background-position: 0 -32px;
+}
+
+.page-next:hover {
+    background-position: -16px -32px;
+}
+
+.page-end:hover {
+    background-position: -48px -32px;
+}
+
+.page-begin-noactive {
+    background-position: -32px 0;
+}
+
+.page-prev-noactive {
+    background-position: 0 0;
+}
+
+.page-next-noactive {
+    background-position: -16px 0;
+}
+
+.page-end-noactive {
+    background-position: -48px 0;
+}

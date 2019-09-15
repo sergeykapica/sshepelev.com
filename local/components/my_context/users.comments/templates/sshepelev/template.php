@@ -6,7 +6,7 @@ $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/messageHide.js');
 $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . '/css/validatorObject.css');
 ?>
 
-<div class="news-comments">
+<div class="content-comments">
     <div class="news-comments-headline">Комментарии</div>
     <? if(count($arResult) > 0): ?>
         <div class="news-comments-list">
@@ -24,7 +24,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . '/css/validatorObject.css');
     <? else: ?>
         <div class="comments-list-empty">Комментарии отсутствуют</div>
     <? endif; ?>
-    <div class="news-comments-add">
+    <div class="content-comments-add">
         <div class="comments-add-headline">Добавить комментарий</div>
         <form action="/handlers/add-comment-handler.php" method="post" class="comments-add-form" enctype="application/x-www-form-urlencoded">
             <section class="add-section-half">

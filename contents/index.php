@@ -27,6 +27,12 @@ $APPLICATION->SetTitle("Содержание");
 				<div class="contents-name-text">Аудио</div>
 			</a>
 		</li>
+		<li class="contents-name-item">
+			<a class="contents-name-url" href="/contents/photo.php">
+				<div class="contents-name-icon contents-photo-icon"></div>
+				<div class="contents-name-text">Фотографии</div>
+			</a>
+		</li>
 	</ul>
 </div>
 

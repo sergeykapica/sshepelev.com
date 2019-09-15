@@ -1,0 +1,295 @@
+.control-content-wrapper, .control-content-head {
+    width: 100%;
+    float: left;
+}
+
+.control-content-head {
+    height: 40px;
+    font-size: 16px;
+}
+
+.content-head-left {
+    width: 40%;
+    height: inherit;
+    float: left;
+}
+
+.content-head-right {
+    width: 40%;
+    height: inherit;
+    float: right;
+}
+
+.control-content-select {
+    display: block;
+    width: 100%;
+    height: inherit;
+    color: #217c8a;
+    background-color: #c4a27c !important;
+    border: 1px solid #217c8a !important;
+    outline: none;
+    padding: 0 .75rem !important;
+    cursor: pointer;
+}
+
+.dropdown {
+    height: inherit;
+}
+
+.dropdown-toggle::after {
+    position: absolute;
+    right: .75rem;
+    top: 20px;
+}
+
+.btn-secondary {
+    border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    -webkit-border-radius: 3px !important;
+    -o-border-radius: 3px !important;
+    -khtml-border-radius: 3px !important;
+}
+
+.btn-secondary:hover {
+    background-color: #9c8164 !important;
+    border-color: #ffffff !important;
+}
+
+.dropdown-item {
+    position: relative;
+    padding: .25rem 1.5rem .25rem 40px !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #217c8a !important;
+}
+
+.dropdown-icon {
+    display: block;
+    position: absolute;
+    top: .25rem;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+    background: url(/local/templates/sshepelev/images/admin-panel/control-content-icons.png) no-repeat center;
+    background-size: 25px 150px;
+}
+
+.control-content-news {
+    background-position: 0 0;
+}
+
+.control-content-comments {
+    background-position: 0 -25px;
+}
+
+.control-content-poems {
+    background-position: 0 -50px;
+}
+
+.control-content-video {
+    background-position: 0 -75px;
+}
+
+.control-content-audio {
+    background-position: 0 -100px;
+}
+
+.content-comments-content {
+    background-position: 0 -50px;
+}
+
+.control-content-photos {
+    background-position: 0 -125px;
+}
+
+.content-search-wrapper {
+    position: relative;
+    width: 100%;
+    height: inherit;
+    float: right;
+}
+
+.admin-panel-input {
+    display: block;
+    width: 100%;
+    height: inherit;
+    padding: 5px 40px 5px 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    border: 1px solid #217c8a;
+    color: #217c8a;
+    font-size: inherit;
+    border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    -webkit-border-radius: 3px !important;
+    -o-border-radius: 3px !important;
+    -khtml-border-radius: 3px !important;
+}
+
+.admin-panel-input:focus {
+    border-color: #185963;
+}
+
+.content-search-icon {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background: url(/local/templates/sshepelev/images/content/search-icon.png) no-repeat center;
+    background-size: 30px;
+    cursor: pointer;
+}
+
+#search-form {
+    width: 100%;
+    height: inherit;
+    float: left;
+}
+
+.control-content-content {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.control-content-content .answer-error {
+    position: relative;
+    float: left;
+}
+
+.control-content-table {
+    display: block;
+    width: 100%;
+    float: left;
+    margin: 10px 0 10px 0;
+}
+
+.content-table-head, .content-table-body {
+    display: block;
+    width: 100%;
+}
+
+.content-table-head {
+    margin-bottom: 10px;
+}
+
+.content-table-tr {
+    display: block;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 5px 35px 5px 35px;
+    color: #656c8a;
+    font-size: 16px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.content-table-td {
+    display: block;
+    float: left;
+}
+
+.table-td-checkbox {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.table-remove-button {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.content-table-news, .content-table-comments, .content-table-poems, .content-table-photos {
+    width: 50%;
+}
+
+.table-td-separator {
+    margin-right: 2%;
+}
+
+.table-news-first, .table-comments-first, .table-poems-first, .table-photos-first {
+    width: 48%;
+}
+
+.content-table-video, .table-video-first, .content-table-audio, .table-audio-first {
+    width: 31.33%;
+    min-height: 10px;
+}
+
+.content-table-head {
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}
+
+.content-table-body .content-table-tr {
+    margin-bottom: 10px;
+}
+
+.table-url {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    float: left;
+    height: 100%;
+    padding: 0 35px 0 35px;
+}
+
+.table-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.table-td-checkbox, .table-remove-button {
+    z-index: 10;
+}
+
+.table-section, .section-elements {
+    width: 100%;
+    float: left;
+}
+
+.control-content-empty {
+    margin: 10px 0;
+    color: #656c8a;
+}
+
+#add-content-wrapper {
+    width: 100%;
+    float: right;
+}
+
+#add-content-button {
+    display: block;
+    float: left;
+    width: 40%;
+    min-height: 40px;
+    padding: 5px;
+    border: none;
+    outline: 0;
+    background-color: #217c8a;
+    color: #fff;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+}

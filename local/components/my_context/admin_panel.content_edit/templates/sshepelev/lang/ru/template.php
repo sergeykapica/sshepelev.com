@@ -1,0 +1,40 @@
+<?
+$MESS['IBLOCK_NEWS_NAME'] = 'Новости';
+$MESS['NEWS_NAME'] = 'Название';
+$MESS['NEWS_TEXT'] = 'Текст';
+$MESS['NEWS_CATEGORIES'] = 'Выберите раздел';
+$MESS['EDIT_FORM_SUBMIT'] = 'Изменить';
+$MESS['ADD_FORM_SUBMIT'] = 'Добавить';
+$MESS['NONE_ACTIVE_CATEGORIES'] = 'Категория не содержит разделов';
+$MESS['UPDATE_NEWS_SUCCESS'] = 'Новость успешно обновлена';
+$MESS['UPDATE_NEWS_ERROR'] = 'Ошибка обновления новости';
+$MESS['ADD_NEWS_SUCCESS'] = 'Новость успешно добавлена';
+$MESS['ADD_NEWS_ERROR'] = 'Ошибка добавления новости';
+$MESS['ADD_NEWS_BUTTON'] = 'Добавить новость';
+$MESS['ADD_NEWS_CATEGORY_BUTTON'] = 'Добавить категорию';
+$MESS['NEWS_CATEGORY_NAME'] = 'Название';
+$MESS['NEWS_CATEGORY_DESCRIPTION'] = 'Описание';
+$MESS['UPDATE_SECTION_SUCCESS'] = 'Категория успешно обновлена';
+$MESS['UPDATE_SECTION_ERROR'] = 'Ошибка обновления категории';
+$MESS['ADD_SECTION_SUCCESS'] = 'Категория успешно добавлена';
+$MESS['ADD_SECTION_ERROR'] = 'Ошибка добавления категории';
+
+$MESS['IBLOCK_COMMENT_NAME'] = 'Комментарии';
+$MESS['COMMENT_USER_NAME'] = 'Имя';
+$MESS['COMMENT_USER_EMAIL'] = 'Электронная почта';
+$MESS['COMMENT_USER_PHOTO'] = 'Фото';
+$MESS['COMMENT_TEXT'] = 'Текст';
+$MESS['COMMENT_NEWS_ID'] = 'Новость';
+$MESS['UPDATE_COMMENT_SUCCESS'] = 'Комментарий успешно обновлен';
+$MESS['UPDATE_COMMENT_ERROR'] = 'Ошибка обновления комментария';
+$MESS['ADD_COMMENT_SUCCESS'] = 'Комментарий успешно добавлен';
+$MESS['ADD_COMMENT_ERROR'] = 'Ошибка добавления комментария';
+$MESS['ADD_COMMENT_BUTTON'] = 'Добавить комментарий';
+$MESS['ADD_COMMENT_CATEGORY_BUTTON'] = 'Добавить категорию';
+$MESS['COMMENT_CATEGORY_NAME'] = 'Название';
+$MESS['COMMENT_CATEGORY_DESCRIPTION'] = 'Описание';
+$MESS['NONE_ACTIVE_NEWS'] = 'Новости отсутствуют';
+$MESS['SELECT_FILE'] = 'Выберите файл';
+$MESS['COMMENTS_CATEGORY'] = 'Раздел';
+$MESS['UPLOAD_IMAGE_ERROR'] = 'Ошибка загрузки изображения';
+?>

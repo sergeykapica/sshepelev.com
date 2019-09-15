@@ -5,8 +5,11 @@
 		<?
 			$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/js/jquery-3.4.1.js');
 			$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/js/viewportchecker.js');
+            $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/js/popper.min.js');
+			$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/js/bootstrap.min.js');
             $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH.'/css/animate.css');
             $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH.'/css/smiles.css');
+            $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH.'/css/bootstrap.min.css');
 			$APPLICATION->ShowHead();
 		?>
 	</head>

@@ -1,0 +1,52 @@
+.adminpanel-wrapper {
+    width: 100%;
+    float: left;
+}
+
+.adminpanel-menu {
+    display: inline-block;
+    width: 80%;
+    margin: 20px 10% 20px 10%;
+    padding: 0;
+}
+
+.adminpanel-menu-li {
+    display: block;
+    width: 48%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 26px;
+    color: #217c8a;
+}
+
+.adminpanel-menu-li:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    transition: background-color 1s ease 0s, color 1s ease 0s;
+}
+
+.adminpanel-menu-li > div {
+    width: 100%;
+    float: left;
+}
+
+.adminpanel-menu li:first-child {
+    margin-right: 4%;
+}
+
+.adminpanel-menu-icon {
+    width: 100%;
+    height: auto;
+}
+
+.adminpanel-menu-text {
+    text-align: center;
+}
+
+.adminpanel-menu-url {
+    text-decoration: none;
+    color: inherit;
+}

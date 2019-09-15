@@ -20,6 +20,13 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
+	),
+	Array(
+		"Фотографии", 
+		"/contents/photo.php", 
+		Array(), 
+		Array(), 
+		"" 
 	)
 );
 ?>

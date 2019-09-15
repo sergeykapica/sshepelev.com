@@ -1,0 +1,148 @@
+.header-slphoto-wrapper {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+#header-slphoto {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 80%;;
+    overflow: hidden;
+    padding: 20px 20px 0 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    background-color: #c4a27c;
+    z-index: 100;
+}
+
+.header-slphoto-ul, .header-slphoto-li {
+    height: 100%;
+}
+
+.header-slphoto-ul {
+    position: relative;
+    width: 100%;
+}
+
+.header-slphoto-ul, .header-slphoto-li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-slphoto-li {
+    width: 100%;
+    float: left;
+    margin-right: 20px;
+}
+
+.source-data {
+    color: #217c8a;
+    margin-top: 10px;
+}
+
+.source-name {
+    width: 48%;
+    float: left;
+    text-align: left;
+    font-size: 18px;
+}
+
+.source-date {
+    width: 48%;
+    float: right;
+    text-align: right;
+}
+
+.like-container, .source-data-description {
+    width: 100%;
+    float: left;
+}
+
+.like-container {
+    position: relative;
+    margin-top: 10px;
+    padding-right: 120px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.source-data-description {
+    font-size: 16px;
+    color: #656c8a;
+}
+
+.like-prevcontainer-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navigation-wrapper {
+    opacity: 0;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 100%;
+    height: 50px;
+}
+
+.navigation-photo-left, .navigation-photo-right {
+    width: 50px;
+    height: 50px;
+    background: url(images/sliderArrows.png) no-repeat;
+    background-size: 100px;
+    cursor: pointer;
+}
+
+.navigation-photo-left {
+    float: left;
+    background-position: 0 0;
+}
+
+.navigation-photo-right {
+    float: right;
+    background-position: -50px 0;
+}
+
+.navigation-photo-left:hover {
+    float: left;
+    background-position: 0 -50px;
+}
+
+.navigation-photo-right:hover {
+    float: right;
+    background-position: -50px -50px;
+}
+
+.fadeInNavigation {
+    opacity: 1;
+    transition: opacity 1s ease 0.5;
+}
+
+.fadeOutNavigation {
+    opacity: 0;
+    transition: opacity 1s ease 0.5;
+}
+
+.slphoto-li-photo {
+    width: 100%;
+    height: 680px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}

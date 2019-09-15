@@ -8,6 +8,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #c4a27c;
 }
 
 .main-wrapper {
@@ -113,6 +114,7 @@ html, body {
 }
 
 .pagination {
+    display: block;
     float: left;
     width: 100%;
     text-align: center;
@@ -137,6 +139,7 @@ html, body {
     min-height: 100px;
     float: left;
     background-color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .contents-name-item:hover {
@@ -189,6 +192,11 @@ html, body {
     background-size: 100px auto;
 }
 
+.contents-photo-icon {
+    background: url(images/content/photo-camera.png) no-repeat center;
+    background-size: 100px auto;
+}
+
 .contents-page {
     background: url(images/content/layout.png) no-repeat center;
     background-size: 200px;
@@ -217,4 +225,55 @@ html, body {
     -o-border-radius: 3px;
     -khtml-border-radius: 3px;
     background-color: #217c8a;
+}
+
+.styled-checkbox-wrapper, .styled-checkbox-wrapper label {
+    width: 100%;
+    height: 100%;
+}
+
+.styled-checkbox-field {
+    width: inherit;
+    height: inherit;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    cursor: pointer;
+}
+
+.styled-checkbox-input {
+    display: none;
+}
+
+.styled-checkbox-input:checked + div {
+    background-color: #217c8a;
+    background-image: url(images/content/admin-panel-buttons.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+    background-position: 4px -14px;
+}
+
+.styled-remove-button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background-image: url(images/content/admin-panel-buttons.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+    background-position: 5px 5px;
+}
+
+.styled-remove-button:hover {
+    background-position: 5px -30px;
 }

@@ -1,0 +1,34 @@
+<?
+$MESS['NEWS_NAME'] = 'Название';
+$MESS['NEWS_DATE'] = 'Дата создания';
+$MESS['NEWS_EMPTY'] = 'Список новостей пуст';
+$MESS['NEWS_DELETE_ERROR'] = 'Ошибка удаления новостей';
+$MESS['COMMENT_NAME'] = 'Название';
+$MESS['COMMENT_DATE'] = 'Дата создания';
+$MESS['COMMENT_EMPTY'] = 'Список комментариев пуст';
+$MESS['COMMENT_DELETE_ERROR'] = 'Ошибка удаления комментариев';
+$MESS['POEMS_NAME'] = 'Название';
+$MESS['POEMS_DATE'] = 'Дата создания';
+$MESS['POEMS_EMPTY'] = 'Список стихотворений пуст';
+$MESS['POEMS_DELETE_ERROR'] = 'Ошибка удаления стихотворений';
+$MESS['VIDEO_NAME'] = 'Название';
+$MESS['VIDEO_DURATION'] = 'Длительность';
+$MESS['VIDEO_DATE'] = 'Дата создания';
+$MESS['VIDEO_EMPTY'] = 'Список видеозаписей пуст';
+$MESS['VIDEO_DELETE_ERROR'] = 'Ошибка удаления видеозаписей';
+$MESS['AUDIO_NAME'] = 'Название';
+$MESS['AUDIO_DURATION'] = 'Длительность';
+$MESS['AUDIO_DATE'] = 'Дата создания';
+$MESS['AUDIO_EMPTY'] = 'Список аудиозаписей пуст';
+$MESS['AUDIO_DELETE_ERROR'] = 'Ошибка удаления аудиозаписей';
+$MESS['PHOTOS_NAME'] = 'Название';
+$MESS['PHOTOS_DATE'] = 'Дата создания';
+$MESS['PHOTOS_EMPTY'] = 'Список фотографий пуст';
+$MESS['PHOTOS_DELETE_ERROR'] = 'Ошибка удаления фотографий';
+$MESS['ADD_CONTENT_NEWS'] = 'Добавить новость';
+$MESS['ADD_CONTENT_COMMENTS'] = 'Добавить комментарий';
+$MESS['ADD_CONTENT_POEMS'] = 'Добавить стихотворение';
+$MESS['ADD_CONTENT_VIDEO'] = 'Добавить видеозапись';
+$MESS['ADD_CONTENT_AUDIO'] = 'Добавить аудиозапись';
+$MESS['ADD_CONTENT_PHOTOS'] = 'Добавить фотографию';
+?>
